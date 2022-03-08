@@ -1,0 +1,37 @@
+/* Global */
+
+* {
+    font-family: 'Gotham Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: inline-block !important;
+    text-decoration: none !important;
+}
+
+ul {
+    padding: 0 !important;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Typography */
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('Fonts/Gotham Pro/Gotham Pro.eot');
+    src: url('Fonts/Gotham Pro/Gotham Pro.eot?#iefix') format('embedded-opentype'),
+        url('Fonts/Gotham Pro/Gotham Pro.woff') format('woff'),
+        url('Fonts/Gotham Pro/Gotham Pro.ttf') format('truetype'),
+        url('Fonts/Gotham Pro/Gotham Pro.svg#Gotham Pro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
