@@ -1,6 +1,25 @@
 /* Navbar */
 
-header > * {
+header>* {
     align-items: center;
-    justify-content: center;
+}
+
+nav li {
+    display: inline;
+    align-items: center;
+    padding: 0;
+    margin: 0 !important;
+}
+
+nav a {
+    color: #181818 !important;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+}
+
+nav img {
+    display: block;
+    padding: 10px;
+    margin: auto;
 }
