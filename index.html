@@ -8,9 +8,10 @@
     <title>Linkedin</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="">
+    <script type="text/javascript" src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/891f166dcb.js" crossorigin="anonymous"></script>
 </head>
 
@@ -48,7 +49,7 @@
                         <img src="assets/img/dmitry-sm.svg">
                     </div>
                     <div class="user">
-                        <p class="p1"><b>D. KARGAEV</b><span>YOU</span></p> <br>
+                        <p class="p1"><b>D. KARGAEV</b><span>YOU</span></p>
                         <p class="p2">367 views today <span>+32<img src="assets/icon/+32arrow.svg"></span></p>
                     </div>
                 </div>
@@ -61,9 +62,10 @@
 
     <div id="fluid-2" class="container-fluid">
 
-        <!-- Proifle -->
-        <section class="content-1">
+        <section class="content">
             <div class="row justify-content-center">
+
+                <!-- Profile -->
                 <div class="profile col-lg-6 p-0">
                     <div class="cover">
                         <a class="btn1" href=""><i class="fa-solid fa-ellipsis-vertical fa-lg"></i></a>
@@ -86,7 +88,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="sidebar col-lg-2">
+
+                <!-- Dashboard -->
+                <div class="sidebar dashboard col-lg-2">
                     <h3><b>YOUR DASHBOARD</b></h3> <a href=""><b>GO TO STATS</b></a>
                     <hr>
                     <p>367</p>
@@ -99,40 +103,121 @@
             </div>
         </section>
 
-        <!-- Tabs -->
-        <section class="content-2">
+        <section class="content">
             <div class="row justify-content-center">
+
+                <!-- Tabs -->
                 <div class="col-lg-6 p-0">
                     <div class="tabs">
-                        <button class="btn1"><b>PROFILE</b></button><button><b>ACTIVITY & INTERESTS</b></button><button class="btn3"><b>ARTICLES (3)</b></button>
+                        <button class="btn1"><b>PROFILE</b></button><button><b>ACTIVITY & INTERESTS</b></button><button
+                            class="btn3"><b>ARTICLES (3)</b></button>
                     </div>
 
                     <div class="about">
-                        <h2>About</h2>
+                        <h2><b>About</b></h2>
                         <p>I'm more experienced in eCommerce web projects and mobile banking apps, but also like to work
                             with creative projects, such as landing pages or unusual corporate websites. </p>
-                            <a href="">SEE MORE</a>
+                        <a href=""><b>SEE MORE</b></a>
+                    </div>
+
+                    <div class="project">
+                        <h2><b>Projects</b> <span>3 of 12</span></h2>
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide1"><img src="assets/img/slider1.svg"></div>
+                                <div class="swiper-slide slide2"><img src="assets/img/slider2.svg"></div>
+                                <div class="swiper-slide slide3"><img src="assets/img/slider3.svg"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
                     </div>
 
                 </div>
+
+                <!-- Visitors -->
                 <div class="sidebar col-lg-2">
-                    <h2><b>VISITORS</b></h2> <a href=""><b>VIEW ALL</b></a>
+                    <h3><b>VISITORS</b></h3> <a href=""><b>VIEW ALL</b></a>
                     <hr>
-                    <p>367</p>
-                    <span>views today</span>
-                    <p>15</p>
-                    <span>post views</span>
-                    <p>9</p>
-                    <span>search appereances</span>
+                    <div class="visitor">
+                        <div>
+                            <img src="assets/img/darlene.svg">
+                        </div>
+                        <div>
+                            <p class="p1"><b>Darlene Black</b></p>
+                            <p class="p2">HR-manager, 10 000 connec...</p>
+                        </div>
+                    </div>
+                    <div class="visitor">
+                        <div>
+                            <img src="assets/img/theresa.svg">
+                        </div>
+                        <div>
+                            <p class="p1"><b>Theresa Steward</b></p>
+                            <p class="p2">iOS developer</p>
+                        </div>
+                    </div>
+                    <div class="visitor">
+                        <div>
+                            <img src="assets/img/brandon.svg">
+                        </div>
+                        <div>
+                            <p class="p1"><b>Brandon Wilson</b></p>
+                            <p class="p2">Senior UX designer</p>
+                        </div>
+                    </div>
+                    <div class="visitor">
+                        <div>
+                            <img src="assets/img/kyle.svg">
+                        </div>
+                        <div>
+                            <p class="p1"><b>Kyle Fisher</b></p>
+                            <p class="p2">Product designer at Com...</p>
+                        </div>
+                    </div>
+                    <div class="visitor">
+                        <div>
+                            <img src="assets/img/audrey.svg">
+                        </div>
+                        <div>
+                            <p class="p1"><b>Audrey Alexander</b></p>
+                            <p class="p2">Team lead at Google</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
     </div>
 
+
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>

@@ -39,11 +39,9 @@ nav li {
 }
 
 .user .p1 {
-    display: inline-block;
-    margin: 0;
     color: #181818;
     font-size: 12px;
-    line-height: 11px;
+    line-height: 5px;
 }
 
 .user .p1 span {
@@ -52,11 +50,10 @@ nav li {
 }
 
 .user .p2 {
-    display: inline-block;
-    margin: 0;
     color: #747474;
     font-size: 12px;
-    line-height: 11px;
+    line-height: 5px;
+    margin: auto;
 }
 
 .user .p2 span {
