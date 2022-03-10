@@ -22,6 +22,26 @@ img {
     max-width: 100%;
 }
 
+section .col-lg-6 {
+    width: 56%;
+}
+
+section h1 {
+    color: #181818;
+    font-size: 18px;
+    line-height: 17px;
+    font-weight: bold;
+    display: inline-block;
+    width: 57%;
+}
+
+section h2 {
+    color: #181818;
+    font-size: 18px;
+    line-height: 17px;
+    font-weight: bold;
+}
+
 /* Background */
 
 #fluid-2 {    

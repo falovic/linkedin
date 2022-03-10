@@ -10,38 +10,37 @@
 }
 
 .project h2 {
-    color: #181818;
-    font-size: 18px;
-    line-height: 17px;
+    margin-bottom: 25px;
 }
-
 
 .project h2 span {
     color: #747474;
     padding-left: 15px;
+    font-weight: normal;
 }
 
-
+.project a {
+    color: #0275B1;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: bold;
+    padding-top: 25px;
+}
 
 /* Slider */
 
 .swiper {
     width: 100%;
-    /* height: 160px; */
     margin: 0 20px;
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+    display: block;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
     -webkit-box-align: center;
@@ -50,9 +49,26 @@
     align-items: center;
 }
 
+.swiper-slide p {
+    color: #181818;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.swiper-slide span {
+    color: #181818;
+    font-size: 10px;
+    line-height: 1.5%;
+}
+
 .swiper-slide img {
-    display: block;
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 100%;
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+    color: #0275B1 !important;
 }

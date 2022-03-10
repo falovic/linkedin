@@ -1,0 +1,32 @@
+/* Skills */
+
+.skills {
+    margin: 30px 0;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+    height: 220px;
+}
+
+.skills div {
+    background-color: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 15px;
+    width: 30%;
+    margin: auto;
+}
+
+.skills p {
+color: #181818;
+
+}
+
+.skills span {
+    color: #0275B1;
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+}

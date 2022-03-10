@@ -39,14 +39,6 @@
     margin-left: 25px;
 }
 
-.info h1 {
-    color: #181818;
-    font-size: 18px;
-    line-height: 17px;
-    display: inline-block;
-    width: 57%;
-}
-
 .info .p1 {
     color: #181818;
     font-size: 12px;
@@ -64,6 +56,7 @@
     color: #fff;
     font-size: 12px;
     line-height: 11px;
+    font-weight: bold;
     padding: 10px 37px;
     background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
     border: 1px solid transparent;
@@ -75,6 +68,7 @@
     color: #0275B1;
     font-size: 12px;
     line-height: 11px;
+    font-weight: bold;
     padding: 10px 20px;
     border: 1px solid #0275B1;
     border-radius: 4px;

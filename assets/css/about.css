@@ -9,12 +9,6 @@
     height: 170px;
 }
 
-.about h2 {
-    color: #181818;
-    font-size: 18px;
-    line-height: 17px;
-}
-
 .about p {
     color: #181818;
     font-size: 14px;
@@ -25,4 +19,5 @@
     color: #0275B1;
     font-size: 12px;
     line-height: 11px;
+    font-weight: bold;
 }
