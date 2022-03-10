@@ -10,7 +10,7 @@
 .profile .cover {
     background-image: url('../img/content-bg.svg');
     background-size: cover;
-    height: 180px;    
+    height: 180px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
@@ -64,6 +64,12 @@
     margin-right: 15px;
 }
 
+.info .btn2:hover {
+    color: #0E6795;
+    background: #fff;
+    border: 1px solid #0E6795;
+}
+
 .info .btn3 {
     color: #0275B1;
     font-size: 12px;
@@ -72,4 +78,9 @@
     padding: 10px 20px;
     border: 1px solid #0275B1;
     border-radius: 4px;
+}
+
+.info .btn3:hover {
+    color: #fff;
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
 }

@@ -15,18 +15,32 @@
     border-radius: 6px;
     display: inline-block;
     padding: 15px;
-    width: 30%;
-    margin: auto;
+    width: 32%;
+    height: 104px;
 }
 
 .skills p {
-color: #181818;
-
+    color: #181818;
+    display: inline-block;
+    width: calc(100% - 14px);
 }
 
 .skills span {
     color: #0275B1;
     font-size: 14px;
     line-height: 1.5;
+    font-weight: bold;
     display: inline-block;
+}
+
+.skills a {
+    color: #0275B1;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.skills .ui {
+    margin: 0 calc(1%);
 }
