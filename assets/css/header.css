@@ -6,7 +6,6 @@ header>* {
 
 .navborder {
     border-right: 2px solid #F4F4F4;
-    /* border-left: 1px solid #F4F4F4; */
     height: 80px;
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +33,7 @@ nav li {
 }
 
 /* Profile */
+
 .user>img {
     padding: 0 15px;
 }
@@ -64,6 +64,7 @@ nav li {
 }
 
 /* Search */
+
 header .search {
     padding: 0 30px;
 }
