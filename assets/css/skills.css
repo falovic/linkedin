@@ -1,15 +1,15 @@
 /* Skills */
 
-.skills {
+.skil {
     margin: 30px 0;
     padding: 30px;
     background-color: #fff;
     box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
     border-radius: 4px;
-    height: 220px;
+    height: 250px;
 }
 
-.skills div {
+.skil div {
     background-color: #FFFFFF;
     border: 1px solid #F4F4F4;
     border-radius: 6px;
@@ -19,13 +19,13 @@
     height: 104px;
 }
 
-.skills p {
+.skil p {
     color: #181818;
     display: inline-block;
     width: calc(100% - 14px);
 }
 
-.skills span {
+.skil span {
     color: #0275B1;
     font-size: 14px;
     line-height: 1.5;
@@ -33,7 +33,7 @@
     display: inline-block;
 }
 
-.skills a {
+.skil a {
     color: #0275B1;
     font-size: 12px;
     line-height: 11px;
@@ -41,6 +41,6 @@
     padding-top: 25px;
 }
 
-.skills .ui {
+.skil .ui {
     margin: 0 calc(1%);
 }
