@@ -57,6 +57,12 @@ section h4 {
     background-color: #F7F9FB;
 }
 
+#fluid-3 {
+    padding-top: 40px;
+    background-color: #F3F6F9;
+    border-top: 1px solid #E5E5E5;
+}
+
 /* Typography */
 
 @font-face {

@@ -15,8 +15,21 @@ header>* {
 nav li {
     display: inline;
     align-items: center;
-    padding: 0;
+    padding: 0 0 10px;
     margin: 0 !important;
+    border-bottom: 2px solid transparent;
+}
+
+nav li:hover {
+border-bottom: 2px solid #0275B1;
+}
+
+nav li:hover img {
+fill: #0275B1;
+}
+
+nav li a:hover {
+    color: #0275B1 !important;
 }
 
 .nav-link {
@@ -69,4 +82,5 @@ header .search {
 
 input[type="search"] {
 border: none;
+outline: none;
 }
