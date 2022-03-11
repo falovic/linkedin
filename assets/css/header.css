@@ -24,10 +24,6 @@ nav li:hover {
     border-bottom: 2px solid #0275B1;
 }
 
-nav li a:hover {
-    color: #0275B1 !important;
-}
-
 .nav-link {
     color: #181818 !important;
     font-size: 12px;
@@ -36,13 +32,17 @@ nav li a:hover {
     display: inline-block;
 }
 
-/* Svg */
+.nav-link:hover {
+    color: #0275B1 !important;
+}
 
-svg {
-    display: block;
-    width: 24px;
-    height: 24px;
-    margin: auto;
+header li img {
+    filter: brightness(0);
+}
+
+header li:hover img {
+    filter: brightness(1);
+    transition: 0.5s;
 }
 
 /* Dropdown */
