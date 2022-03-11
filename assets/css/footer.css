@@ -4,6 +4,14 @@ footer {
     padding: 30px;
 }
 
+footer p {
+    font-weight: bold;
+}
+
+footer span {
+    color: #0275B1;
+}
+
 footer h5 {
     color: #181818;
     font-size: 12px;
@@ -60,4 +68,20 @@ footer .a2:hover {
 
 .fa-circle-question, .fa-gear {
     float: right;
+}
+
+select {
+    font-size: 12px !important;
+    font-weight: bold;
+    width: 100%;
+    border: 1px solid #F0F0F0;
+    border-radius: 4px;
+    padding: 10px 15px;
+    outline: none;
+}
+
+select option {
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: bold;
 }
