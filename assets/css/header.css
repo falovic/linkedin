@@ -24,10 +24,6 @@ nav li:hover {
 border-bottom: 2px solid #0275B1;
 }
 
-nav li:hover img {
-fill: #0275B1;
-}
-
 nav li a:hover {
     color: #0275B1 !important;
 }
@@ -37,13 +33,22 @@ nav li a:hover {
     font-size: 12px;
     line-height: 11px;
     text-align: center;
+    display: inline-block;
 }
 
-.nav-img {
+/* Svg */
+
+svg {
     display: block;
-    padding: 10px;
+    width: 24px;
+    height: 24px;
     margin: auto;
 }
+
+header path:hover {
+    stroke: #0275B1;
+    fill: #0275B1;
+  }
 
 /* Profile */
 
